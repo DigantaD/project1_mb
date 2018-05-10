@@ -1,0 +1,203 @@
+h1 {
+
+	border-bottom: 2px solid black;
+}
+
+body {
+
+	background: white;
+}
+
+h1 {
+
+	text-align: center;
+	border: 20px;
+	height: 30px;
+	width: 600px;
+	padding: 10px 10px 20px 10px;
+	margin: 20px 20px;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	font-size: 30px;
+}
+
+#heading {
+
+	background: black;
+}
+
+.menu_1 ol {
+
+	font:bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 2;
+	padding: 2;
+	text-transform: uppercase;
+}
+
+.menu_1 li {
+
+	display: inline-block;
+}
+
+.menu_1 a {
+
+	background: #826402;
+	background: linear-gradient(#362771, #271187);
+	border-right: 1px solid rgba(0, 0, 0, .4);
+	color: #fff;
+	padding: 12px 20px;
+	text-decoration: none;
+}
+
+.menu_1 a:hover {
+
+	background: #29ee40;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .4);
+}
+
+.menu_1 li:first-child a{
+
+	border-right: 0;
+	border-radius: 0 4px 4px 0;
+}
+
+#latest_news {
+
+	align-content: center;
+	text-align: center;
+	background: black;
+	width: 100%;
+	height: 20px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	color: white;
+	font-size: 15px;
+	display: block;
+	border: 1px dashed #ef2780;
+}
+
+.news {
+
+	background: white;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+ol {
+
+	align-items: center;
+	text-align: center;
+	padding-left: 12px;
+}
+	
+.image-info img {
+	border-radius: 50%;
+	height: 100px;
+	margin: 0px 0 22px 0;
+}
+
+.image-info {
+
+	border: 1px solid #dfe2e5;
+	border-radius: 5px;
+	margin-top: 88px;
+	padding-bottom: 22px;
+	text-align: center;
+}
+
+h3 {
+
+	display: inline-block;
+	font-size: 20px;
+}
+
+.container {
+
+	width: 30%;
+	display: inline-block;
+}
+
+caption {
+
+	font-size: 18px;
+}
+
+table {
+
+	width: 50%;
+	height: 50%;
+	float: left;
+	border-collapse: separate;
+	border-spacing: 2;
+	color: #5a5a5e;
+	font: 12px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+th,
+td {
+
+	padding: 8px 12px;
+	vertical-align: middle;
+}
+
+thead {
+
+	background: #395870;
+	background: linear-gradient(#49708f, #293f50);
+	color: #fff;
+	font-size: 8px;
+	text-transform: uppercase;
+}
+
+th:first-child {
+
+	border-top-left-radius: 4px;
+	text-align: left;
+	margin-right: 1%;
+}
+
+th:last-child {
+
+	border-top-right-radius: 4px;
+}
+
+tbody tr:nth-child(even) {
+
+	background: #f0f0f2;
+}
+
+td {
+
+	border-bottom: 1px solid #cecfd5;
+	border-right: 1px solid #cecfd5;
+}
+
+td:first-child {
+
+	border-left: 1px solid #cecfd5;
+}
+
+.team-name {
+
+	color: #395870;
+	display: block;
+}
+
+.played,
+.won,
+.draw
+.lost,
+.gdd,
+.points,
+.name,
+.sport,
+.worth,
+.country,
+.club,
+.company,
+.nrr {
+
+	text-align: center;
+}
